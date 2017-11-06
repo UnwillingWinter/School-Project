@@ -1,0 +1,107 @@
+<!doctype html>
+<head>
+	<title>Index</title>
+	<link type="text/css" rel="stylesheet" href="\\stbernards.school.nz\Students\Private_Folders\WJohnson\Computing\Assessment\stylesheet.css">
+	
+	
+	
+	
+</head>
+<body>
+	<!-- Heading, fixed as to stay in place. -->
+	<div class="header">
+		<div class="header_image">
+			<img src="H:\Computing\NCEA\1.43 Web\Assessment\Pizzariea-Practice.png" alt="logo" width="70px" height="50px" alt="Logo" title="Logo, Pizza-slice">
+		</div>
+		<a href="https://www.sbc.school.nz/" target="_blank">St Bernards College</a>
+		<a href="http://www.sbc.school.nz/sbc-net/" target="_blank">SBC Net</a>
+		<a href="https://mail.sbc.school.nz/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.sbc.school.nz%2fowa%2f%23authRedirect%3dtrue" target="_blank">SBC Webmail</a>
+		<a href="\\stbernards.school.nz\Students\Private_Folders\WJohnson\Computing\Assessment\Contrast.html" target="_blank">Contrast</a>
+		<a href="\\stbernards.school.nz\Students\Private_Folders\WJohnson\Computing\Assessment\Repitition.html" target="_blank">Repitition</a>
+		<a href="\\stbernards.school.nz\Students\Private_Folders\WJohnson\Computing\Assessment\Alignment.html" target="_blank">Alignment</a>
+		<a href="\\stbernards.school.nz\Students\Private_Folders\WJohnson\Computing\Assessment\Proximity.html" target="_blank">Proximity</a>
+		<div class="heading_header">Index</div>
+	</div>
+	<!-- Breaks to put code lower than header. -->
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<!-- Slideshow, Credit goes to W3 Schools. Image Credit goes to Pixabay and all of the Artists on there. -->
+<div class="slideshow">
+	<div class="w3-display-container mySlides">
+		<p>
+			<img src="H:\Computing\Assessment\Images\Contrast-01-Photoshopped.jpg" style="width:960px" height="240px" alt="Contrast" title="Contrast">
+		</p>
+		<div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+			<div class="slide_text">
+				<h3>Contrast</h3><br>
+				Contrast allows you to emphasize or highlight key elements within your design.
+			</div>
+		</div>
+	</div>
+	<div class="w3-display-container mySlides">
+		<p>
+			<img src="H:\Computing\Assessment\Images\Repitition-01.jpg" style="width:960px" height="240px" alt="Repetition" title="Repetition">
+		</p>
+		<div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+				<div class="slide_text">
+					<h3>Repetition</h3><br>
+					Repetition is the use of similar or connected pictorial elements.
+				</div>
+		</div>
+	</div>
+	<div class="w3-display-container mySlides">
+		<p>
+			<img src="H:\Computing\Assessment\Images\Fencing-L.jpg" style="width:960px" height="240px" alt="Alignment" title="Alignment">
+		</p>
+		<div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+			<div class="slide_text">
+				<h3>Alignment</h3><br>
+				Alignment creates a sharper, more ordered design.
+			</div>
+		</div>
+	</div>
+	<div class="w3-display-container mySlides">
+		<p>
+			<img src="H:\Computing\Assessment\Images\Proximity-01.jpg" style="width:960px" height="240px" alt="Proximity" title="Proximity">
+		</p>
+		<div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+			<div class="slide_text">
+				<h3>Proximity</h3><br>
+				Proximity helps create organisation. By grouping similar elements together or in close proximity, you create a relationship between those elements.
+			</div>
+		</div>
+	</div>
+</div>
+<div class="button">
+<p class="button-left">	
+	<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+</p>
+<p class="button-right">
+	<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</p>
+</div>
+<!-- Script tag tells HTML that this is Javascript code. -->
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+		showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		if (n > x.length) {slideIndex = 1} 
+		if (n < 1) {slideIndex = x.length} ;
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none"; 
+		}
+		x[slideIndex-1].style.display = "block"; 
+	}
+</script>
+</body>
